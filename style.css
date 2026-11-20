@@ -1,0 +1,85 @@
+body{
+      * {
+    box-sizing: border-box;  /* ظبط حساب الأحجام لظبط المسافات في المتصفحات*/
+}
+    font-family: Arial, sans-serif;
+    background-color: #070a12;
+}
+.hero{
+    background-color: #0b111e;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    box-shadow: 0 0 30px #1e293b;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+    margin: 100px auto;
+}
+h2 {
+    color: #4ce5e5;
+    text-shadow: 0 0 8px #4ce5e5;
+}
+p {
+    color: #94a3b8;
+}
+input {
+    background-color: #111827;
+    display: block;
+    padding: 6px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #4b5563;
+    margin-left: 120px;
+    color: #e0f7fa;
+}
+input:focus{
+    outline: none;
+    background-color: #111827;
+    border-color: #4ce5e5;
+    box-shadow: 0 0 8px rgba(76, 229, 229, 0.5);
+}
+button{
+    background-color: #1d4ed8;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #1d4ed8;
+    /* margin-left: 4px; */
+    display: block;
+    margin: 20px auto 0;
+
+}
+button:hover{
+    background-color: #4ce5e5;
+    color: #0b111e;
+    box-shadow: 0 0 15px #4ce5e5;
+}
+
+
+
+.nour1911 {
+    padding-left: 15px;
+    width: 19ch;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #00e5ff;
+    text-shadow: 0 0 5px #00e5ff;
+    border-right: 10px solid #00e5ff;
+    animation: typing 3s steps(19) infinite, blink 0.7s infinite;
+}
+
+@keyframes typing {
+    0% { width: 0; }
+    50%, 80% { width: 19ch; }
+    100% { width: 0; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
